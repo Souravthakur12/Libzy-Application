@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_user"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a373f"
+    android:orientation="vertical"
+    tools:context=".module.UserActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+
+      <com.denzcoskun.imageslider.ImageSlider
+          android:layout_below="@+id/toolbar"
+          android:id="@+id/Slider"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          app:placeholder="@color/splash"
+          app:error_image="@color/splash"
+          app:auto_cycle="true"
+          app:corner_radius="10"
+          app:period="1000"
+          >
+
+
+      </com.denzcoskun.imageslider.ImageSlider>
+
+
+    <ExpandableListView
+        android:layout_below="@id/Slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/expandable_listview">
+
+    </ExpandableListView>
+
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        app:headerLayout="@layout/drawer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_drawer"
+        app:menu="@menu/drawer_menu"
+        android:layout_gravity="start"/>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

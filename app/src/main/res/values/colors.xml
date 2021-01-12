@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004c3f</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="splash">#004c3f</color>
+    <color name="white">#ffffff</color>
+    <color name="toolbar">#96E6FF</color>
+
+    <color name="ligh_meduim_gray" >#f3f3f3</color>
+    <color name="send_button">#BCB3B3</color>
+    <color name="fav_icon_tint">#CAC7C7</color>
+
+
+</resources>

@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">LibZy</string>
+    <string name="group1">Semester1</string>
+    <string name="group2">Semester2</string>
+    <string name="group3">Semester3</string>
+    <string name="group4">Semester4</string>
+    <string name="group5">Semester5</string>
+    <string name="group6">Semester6</string>
+    <string name="group7">Semester7</string>
+    <string name="group8">Semester8</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="group1">
+        <item>CSE</item>
+        <item>ECE</item>
+    </string-array>
+
+    <string-array name="group2">
+        <item>CSE</item>
+        <item>ECE</item>
+
+    </string-array>
+
+    <string-array name="group3">
+        <item>CSE</item>
+        <item>ECE</item>
+
+    </string-array>
+
+    <string-array name="group4">
+        <item>CSE</item>
+        <item>ECE</item>
+
+    </string-array>
+
+    <string-array name="group5">
+        <item>CSE</item>
+        <item>ECE</item>
+
+    </string-array>
+    <string-array name="group6">
+        <item>CSE</item>
+        <item>ECE</item>
+
+    </string-array>
+    <string-array name="group7">
+        <item>CSE</item>
+        <item>ECE</item>
+
+    </string-array>
+    <string-array name="group8">
+        <item>CSE</item>
+        <item>ECE</item>
+
+    </string-array>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="about_us">Welcome to Libzy .This app provides all the necessary books for the students which are needed for them as well as it provide online book service for the students of their respective semesters.Students can read books online or by issuing the books from the library through this app.. Or bhi bahut kuch likhna haa aage samaj ne ara.. kya likhu</string>
+    <string name="image_of_logo">image of logo</string>
+    <string name="bg_image_of_me">bg image of me</string>
+    <string name="image_of_me">image of me</string>
+    <string name="name">Name:</string>
+    <string name="batch">Batch:</string>
+    <string name="sourav_thakur">Sourav Thakur</string>
+    <string name="_2017_2021">2017–2021</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="souravthakur12">Souravthakur12</string>
+
+
+    <string name="user_gmail_com">user@gmail.com</string>
+    <string name="log_in">Log In</string>
+
+
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="password">Password</string>
+    <string name="Password_hint">**************</string>
+    <string name="email">Email</string>
+    <string name="stream">Stream</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="name_of_user">Name</string>
+    <string name="edit_your_profile">Edit Your Profile</string>
+
+</resources>

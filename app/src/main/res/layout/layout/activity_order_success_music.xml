@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".OrderSuccessMusic"
+    android:background="@color/toolbar">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:id="@+id/animation"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="placed.json"
+        app:lottie_loop="true" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/bkc_text"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOK ISSUED"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/go_to_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/splash"
+            android:text="GO TO MAIN MENU"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffff"
+            />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

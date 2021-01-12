@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/close_window"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_gravity="right"
+        android:src="@drawable/close_window" />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill Your Details"
+        android:textSize="20sp"
+        android:textColor="@color/splash"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/name_user"
+        android:layout_width="302dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/stream"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:hint="Stream"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:imeOptions="actionNext"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:hint="Roll No"
+        android:imeOptions="actionNext"
+        android:inputType="textCapCharacters" />
+
+
+   <!-- <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:digits="0123456789+"/>
+-->
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@color/colorPrimary"
+        android:text="Issue your book"
+        android:textColor="@color/white" />
+</LinearLayout>

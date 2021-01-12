@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="abvgiet.college.Libzy">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera2.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustResize|stateHidden">
+        <activity android:name=".VerifyOtpActivity">
+        </activity>
+        <activity android:name=".SendOtpActivity">
+
+
+
+        </activity>
+        <activity android:name=".DevelopedBy" />
+        <activity android:name=".ScanBooks" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".OrderSuccessMusic">
+
+
+        </activity>
+        <activity android:name=".books.Cse_Sem8" />
+        <activity android:name=".books.Cse_Sem7" />
+        <activity android:name=".books.Cse_Sem6" />
+        <activity android:name=".books.Cse_Sem5" />
+        <activity android:name=".books.Cse_Sem4" />
+        <activity android:name=".books.Cse_Sem3" />
+        <activity android:name=".User_Order_Sucess" />
+        <activity android:name=".Forgot_Password" />
+        <activity android:name=".books.User_Order_Details" />
+        <activity android:name=".books.Ece_Sem2" />
+        <activity android:name=".books.Cse_Sem2" />
+        <activity android:name=".books.Ece_Sem1" />
+        <activity android:name=".books.Cse_Sem1" />
+        <activity android:name=".PDFActivity" />
+        <activity android:name=".Edit_User_Details" />
+        <activity android:name=".module.UserActivity" />
+        <activity android:name=".module.AdminActivity" />
+        <activity
+            android:name=".splashscreen"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+
+        </activity>
+    </application>
+
+</manifest>
